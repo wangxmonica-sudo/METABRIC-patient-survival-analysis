@@ -34,3 +34,13 @@ Kaplan–Meier-style summary using SQL aggregation.
 
 CSV output of correlation, chi-square, RR/OR metrics for underperformers vs rest.
 
+# Dataset resources 
+
+**Kaggle:** Breast Cancer (METABRIC) — clinical profiles CSV versions suitable for quick analysis.  
+  https://www.kaggle.com/datasets/gunesevitan/breast-cancer-metabric
+
+  **Original studies (for citation):**
+- Curtis *et al.* (2012), *Nature*: The genomic and transcriptomic architecture of 2000 breast tumours.  
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC3440846/
+- Pereira *et al.* (2016), *Nature Communications*: Somatic mutation profiles of 2433 breast cancers refine landscape of driver genes.  
+  https://www.nature.com/articles/ncomms11479
