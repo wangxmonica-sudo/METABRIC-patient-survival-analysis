@@ -1,0 +1,79 @@
+?column?,n_patients
+avg_mut_cnt,5.34
+avg_mut_low,5.34
+avg_mut_rest,5.6
+avg_notts,4.21
+avg_notts_low,4.21
+avg_notts_rest,3.89
+cell_High,314 (51.6%)
+cell_Low,73 (12.0%)
+cell_Moderate,221 (36.3%)
+chi2_surg_chemo_underperf,3.6233 (dof=1)
+combo_Chemo-No | Hormone-No | Radio-No,73 (12.0%)
+combo_Chemo-No | Hormone-No | Radio-Yes,62 (10.2%)
+combo_Chemo-No | Hormone-Yes | Radio-No,111 (18.3%)
+combo_Chemo-No | Hormone-Yes | Radio-Yes,212 (34.9%)
+combo_Chemo-Yes | Hormone-No | Radio-No,13 (2.1%)
+combo_Chemo-Yes | Hormone-No | Radio-Yes,68 (11.2%)
+combo_Chemo-Yes | Hormone-Yes | Radio-No,11 (1.8%)
+combo_Chemo-Yes | Hormone-Yes | Radio-Yes,58 (9.5%)
+corr_mut_notts_underperf,0.033220920673991794
+ER_Negative,148 (24.3%)
+ER_Positve,460 (75.7%)
+HER2_Negative,512 (84.2%)
+HER2_Positive,96 (15.8%)
+max_mut_cnt,30
+max_notts,6.36
+meno_Post,489 (80.4%)
+meno_Pre,119 (19.6%)
+min_mut_cnt,1
+min_notts,1.02
+n_patients,608
+OR_cell_High,1.7072
+OR_cell_Low,1.5034
+OR_cell_Moderate,1.2248
+OR_chemo_No,0.6693
+OR_chemo_Yes,1.4941
+OR_ER_Negative,1.7805
+OR_ER_Positve,1.8021
+OR_HER2_Negative,2.0674
+OR_HER2_Positive,2.6804
+OR_hormone_No,0.7829
+OR_hormone_Yes,1.2773
+OR_meno_Post,2.8921
+OR_meno_Pre,0.9789
+OR_radio_No,0.9756
+OR_radio_Yes,1.0251
+OR_surgery_Breast Conserving,0.9036
+OR_surgery_Mastectomy,1.1066
+p50_mut_cnt,5
+p50_mut_low,5
+p50_mut_rest,5
+p50_notts,4.05
+p50_notts_low,4.05
+p50_notts_rest,4.04
+pct_low_Breast Conserving,46.00%
+pct_low_Mastectomy,48.50%
+RR_cell_High,1.342
+RR_cell_Low,1.4429
+RR_cell_Moderate,1.1431
+RR_chemo_No,0.9184
+RR_chemo_Yes,1.3722
+RR_ER_Negative,1.5905
+RR_ER_Positve,1.1953
+RR_HER2_Negative,1.1685
+RR_HER2_Positive,2.4151
+RR_hormone_No,0.86
+RR_hormone_Yes,1.0985
+RR_meno_Post,1.3703
+RR_meno_Pre,0.983
+RR_radio_No,0.9839
+RR_radio_Yes,1.0086
+RR_surgery_Breast Conserving,0.9428
+RR_surgery_Mastectomy,1.0433
+size1_avg_mut,5.09
+size1_avg_notts,3.31
+size2_avg_mut,5.46
+size2_avg_notts,4.62
+surgery_Breast Conserving,247 (40.6%)
+surgery_Mastectomy,361 (59.4%)
