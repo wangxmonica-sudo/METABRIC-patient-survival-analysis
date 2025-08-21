@@ -1,0 +1,61 @@
+patient_id,age_at_diagnosis,tumor_size_mm,tumor_stage,overall_survival_months,vital_status,cancer_type_detailed,cellularity,pam50_subtype,er_status,er_status_ihc,her2_status,tumor_other_histologic_subtype,mutation_count,nottingham_index,inferred_menopausal_state,relapse_free_months,relapse_free_status,three_gene_subtype,chemotherapy,hormone_therapy,radio_therapy,type_breast_surgery
+P0001,76,104,2,135,Dead,Breast Ductal Carcinoma,Moderate,Luminal B,Positive,Positive,Negative,Mucinous,49,5.34,Pre,57,No Relapse,ER-/HER2+,True,Yes,Yes,Mastectomy
+P0002,39,18,3,59,Dead,Breast Lobular Carcinoma,Moderate,Luminal A,Positive,Positive,Negative,Mucinous,25,7.14,Post,117,Relapse,ER+/HER2-,False,Yes,Unknown,Breast Conserving
+P0003,85,99,2,92,Dead,Breast Ductal Carcinoma,High,HER2-enriched,Negative,Negative,Negative,Medullary,39,6.49,Post,145,No Relapse,ER+/HER2-,True,Yes,No,Mastectomy
+P0004,45,52,1,134,Alive,Breast Ductal Carcinoma,Moderate,Basal,Positive,Positive,Negative,No special type,36,4.9,Post,151,No Relapse,Triple Negative,True,No,Yes,Mastectomy
+P0005,48,19,3,152,Dead,Breast Lobular Carcinoma,High,HER2-enriched,Positive,Positive,Negative,No special type,58,3.91,Post,55,No Relapse,ER+/HER2-,False,Yes,Yes,Mastectomy
+P0006,27,76,3,131,Dead,Breast Ductal Carcinoma,Moderate,HER2-enriched,Positive,Positive,Negative,Medullary,46,5.77,Post,139,No Relapse,ER-/HER2+,True,Yes,Unknown,Breast Conserving
+P0007,46,82,2,135,Dead,Breast Ductal Carcinoma,High,Luminal B,Positive,Positive,Negative,Tubular,40,5.26,Post,59,No Relapse,ER-/HER2+,False,Yes,No,Mastectomy
+P0008,77,91,3,58,Dead,Breast Lobular Carcinoma,Low,Basal,Positive,Positive,Negative,No special type,46,7.05,Post,119,No Relapse,Triple Negative,True,No,Yes,Mastectomy
+P0009,26,66,2,177,Alive,Breast Ductal Carcinoma,Moderate,HER2-enriched,Positive,Positive,Negative,Mucinous,42,6.18,Post,156,No Relapse,ER-/HER2+,False,No,No,Breast Conserving
+P0010,54,44,2,165,Alive,Breast Lobular Carcinoma,Moderate,Luminal A,Positive,Positive,Negative,No special type,41,5.92,Pre,37,No Relapse,ER+/HER2+,False,Yes,Unknown,Mastectomy
+P0011,62,89,2,165,Alive,Breast Ductal Carcinoma,Low,Luminal A,Positive,Positive,Negative,Mucinous,44,5.02,Pre,65,No Relapse,ER-/HER2+,False,Yes,No,Breast Conserving
+P0012,26,84,1,73,Dead,Breast Lobular Carcinoma,Low,Normal-like,Positive,Positive,Negative,Tubular,39,3.95,Post,27,No Relapse,ER-/HER2+,False,Yes,Yes,Breast Conserving
+P0013,88,113,1,128,Dead,Breast Lobular Carcinoma,High,Basal,Positive,Positive,Negative,Medullary,36,4.76,Post,92,No Relapse,ER+/HER2-,True,No,Yes,Breast Conserving
+P0014,84,86,1,150,Alive,Breast Ductal Carcinoma,Moderate,Basal,Positive,Positive,Negative,No special type,44,5.57,Post,77,Relapse,ER+/HER2-,False,No,No,Breast Conserving
+P0015,45,115,2,43,Alive,Breast Ductal Carcinoma,Low,Normal-like,Positive,Positive,Positive,Medullary,39,2.92,Pre,40,No Relapse,ER-/HER2+,True,Yes,Yes,Breast Conserving
+P0016,57,57,1,29,Alive,Breast Ductal Carcinoma,Moderate,HER2-enriched,Negative,Negative,Negative,No special type,45,6.49,Post,132,No Relapse,Triple Negative,True,Yes,No,Mastectomy
+P0017,82,28,2,74,Alive,Breast Invasive Carcinoma,Moderate,Basal,Negative,Negative,Negative,Mucinous,37,7.48,Pre,137,No Relapse,ER+/HER2-,True,Yes,Yes,Breast Conserving
+P0018,46,30,4,121,Dead,Breast Invasive Carcinoma,Moderate,Luminal A,Positive,Positive,Negative,Medullary,41,2.67,Post,93,No Relapse,Triple Negative,True,No,Yes,Mastectomy
+P0019,73,93,1,103,Alive,Breast Invasive Carcinoma,Moderate,Luminal A,Negative,Negative,Negative,No special type,41,3.32,Post,19,No Relapse,ER-/HER2+,True,Yes,Yes,Breast Conserving
+P0020,83,64,2,144,Alive,Breast Lobular Carcinoma,Low,Luminal B,Positive,Positive,Negative,Mucinous,42,5.28,Post,130,No Relapse,ER-/HER2+,False,Yes,Yes,Mastectomy
+P0021,66,113,3,149,Alive,Breast Ductal Carcinoma,Low,Basal,Positive,Positive,Negative,Medullary,44,4.3,Post,110,No Relapse,ER+/HER2+,False,Yes,Unknown,Mastectomy
+P0022,84,45,1,102,Alive,Breast Lobular Carcinoma,Moderate,HER2-enriched,Positive,Positive,Positive,Medullary,44,5.31,Post,154,No Relapse,ER+/HER2-,False,Yes,No,Breast Conserving
+P0023,39,33,1,129,Alive,Breast Invasive Carcinoma,Moderate,Normal-like,Positive,Positive,Negative,No special type,48,4.91,Post,27,No Relapse,ER-/HER2+,True,No,No,Mastectomy
+P0024,86,19,1,75,Dead,Breast Ductal Carcinoma,Low,Normal-like,Positive,Positive,Negative,No special type,34,3.77,Post,90,No Relapse,ER+/HER2+,False,Yes,Yes,Breast Conserving
+P0025,86,49,1,98,Dead,Breast Lobular Carcinoma,High,HER2-enriched,Positive,Positive,Negative,No special type,37,6.55,Pre,31,No Relapse,ER+/HER2-,True,No,Yes,Mastectomy
+P0026,71,69,4,8,Alive,Breast Ductal Carcinoma,Moderate,Luminal B,Positive,Positive,Negative,Mucinous,41,5.56,Post,65,No Relapse,ER-/HER2+,True,No,Yes,Breast Conserving
+P0027,86,93,3,153,Alive,Breast Lobular Carcinoma,Low,Normal-like,Positive,Positive,Positive,No special type,49,4.33,Post,152,No Relapse,ER-/HER2+,True,Yes,Yes,Mastectomy
+P0028,75,75,2,169,Alive,Breast Ductal Carcinoma,Low,Basal,Negative,Negative,Positive,Medullary,37,6.81,Post,156,Relapse,ER+/HER2-,True,Yes,Yes,Breast Conserving
+P0029,79,13,3,152,Alive,Breast Invasive Carcinoma,Low,Luminal B,Negative,Negative,Negative,Medullary,30,4.39,Post,158,No Relapse,ER+/HER2-,False,No,Yes,Mastectomy
+P0030,88,92,3,95,Alive,Breast Invasive Carcinoma,High,Basal,Positive,Positive,Negative,No special type,44,3.51,Post,116,No Relapse,ER+/HER2-,False,Yes,Yes,Mastectomy
+P0031,27,5,1,152,Alive,Breast Ductal Carcinoma,Moderate,Luminal A,Negative,Negative,Negative,No special type,33,5.22,Post,51,Relapse,ER-/HER2+,True,Yes,Yes,Breast Conserving
+P0032,75,112,3,153,Dead,Breast Lobular Carcinoma,Moderate,Luminal B,Negative,Negative,Negative,Tubular,29,5.42,Pre,83,No Relapse,ER-/HER2+,True,Unknown,Unknown,Breast Conserving
+P0033,31,12,2,101,Alive,Breast Invasive Carcinoma,Moderate,Normal-like,Negative,Negative,Negative,Medullary,51,5.64,Pre,86,No Relapse,ER+/HER2+,True,Yes,No,Breast Conserving
+P0034,45,92,3,57,Dead,Breast Invasive Carcinoma,Moderate,Luminal B,Positive,Positive,Negative,Mucinous,45,5.84,Post,107,No Relapse,Triple Negative,True,Yes,Yes,Breast Conserving
+P0035,63,67,3,166,Alive,Breast Invasive Carcinoma,Moderate,Luminal B,Positive,Positive,Negative,Tubular,44,5.62,Pre,150,Relapse,ER+/HER2-,False,Yes,Yes,Mastectomy
+P0036,42,15,1,173,Alive,Breast Ductal Carcinoma,Low,Luminal B,Positive,Positive,Negative,No special type,32,5.57,Post,120,No Relapse,ER-/HER2+,True,No,No,Breast Conserving
+P0037,28,119,1,133,Alive,Breast Ductal Carcinoma,Moderate,Luminal B,Positive,Positive,Positive,No special type,44,4.31,Post,88,No Relapse,ER-/HER2+,True,Yes,Yes,Breast Conserving
+P0038,84,85,1,44,Alive,Breast Lobular Carcinoma,Low,Basal,Negative,Negative,Negative,Medullary,45,4.18,Pre,65,No Relapse,ER+/HER2-,True,Yes,No,Breast Conserving
+P0039,38,12,2,87,Dead,Breast Lobular Carcinoma,Low,Luminal A,Positive,Positive,Positive,No special type,48,5.89,Pre,106,No Relapse,Triple Negative,False,Yes,No,Mastectomy
+P0040,33,39,3,109,Alive,Breast Lobular Carcinoma,Moderate,HER2-enriched,Negative,Negative,Negative,Mucinous,38,5.29,Pre,51,No Relapse,ER+/HER2-,False,Yes,Yes,Breast Conserving
+P0041,77,39,3,134,Alive,Breast Ductal Carcinoma,Low,Luminal B,Negative,Negative,Positive,Medullary,45,5.98,Post,73,No Relapse,Triple Negative,False,Yes,Yes,Breast Conserving
+P0042,26,37,1,16,Alive,Breast Ductal Carcinoma,Low,Normal-like,Negative,Negative,Negative,No special type,41,2.95,Post,3,No Relapse,ER-/HER2+,False,Yes,Yes,Breast Conserving
+P0043,84,9,2,156,Dead,Breast Lobular Carcinoma,Moderate,Luminal B,Positive,Positive,Negative,Medullary,30,4.4,Pre,143,No Relapse,Triple Negative,True,Yes,Yes,Breast Conserving
+P0044,68,110,2,164,Alive,Breast Lobular Carcinoma,High,Normal-like,Positive,Positive,Negative,No special type,35,7.29,Post,125,Relapse,ER+/HER2+,True,Yes,Yes,Mastectomy
+P0045,32,107,1,47,Dead,Breast Ductal Carcinoma,Low,Basal,Positive,Positive,Negative,No special type,39,5.66,Post,64,No Relapse,ER-/HER2+,False,Yes,No,Breast Conserving
+P0046,71,45,1,104,Alive,Breast Lobular Carcinoma,Low,Normal-like,Negative,Negative,Negative,No special type,43,5.35,Pre,34,No Relapse,ER+/HER2+,False,Yes,Yes,Breast Conserving
+P0047,59,32,1,12,Alive,Breast Invasive Carcinoma,High,HER2-enriched,Positive,Positive,Negative,Mucinous,42,5.85,Post,31,No Relapse,ER+/HER2-,False,Yes,Yes,Mastectomy
+P0048,60,11,4,149,Dead,Breast Ductal Carcinoma,High,Luminal A,Positive,Positive,Negative,Mucinous,41,7.65,Post,51,No Relapse,ER+/HER2-,False,Yes,No,Mastectomy
+P0049,74,77,1,95,Dead,Breast Lobular Carcinoma,Moderate,Normal-like,Positive,Positive,Positive,Medullary,41,7.4,Pre,32,No Relapse,ER+/HER2-,False,No,No,Breast Conserving
+P0050,28,76,2,117,Dead,Breast Ductal Carcinoma,Moderate,Normal-like,Positive,Positive,Negative,No special type,37,3.1,Pre,146,Relapse,Triple Negative,False,Yes,Yes,Mastectomy
+P0051,26,16,3,65,Alive,Breast Invasive Carcinoma,Moderate,Luminal A,Negative,Negative,Negative,No special type,42,3.55,Pre,21,No Relapse,ER-/HER2+,False,Yes,Yes,Mastectomy
+P0052,30,38,2,118,Alive,Breast Ductal Carcinoma,Low,HER2-enriched,Negative,Negative,Negative,Mucinous,40,3.06,Pre,20,No Relapse,ER+/HER2-,False,Yes,Yes,Breast Conserving
+P0053,78,37,4,7,Alive,Breast Ductal Carcinoma,High,Luminal B,Positive,Positive,Negative,No special type,52,4.1,Post,3,Relapse,ER+/HER2-,False,No,No,Mastectomy
+P0054,28,52,4,134,Dead,Breast Ductal Carcinoma,High,Normal-like,Negative,Negative,Positive,Mucinous,34,5.07,Post,80,No Relapse,ER-/HER2+,False,No,Yes,Mastectomy
+P0055,78,27,1,53,Alive,Breast Ductal Carcinoma,Moderate,Luminal A,Positive,Positive,Positive,No special type,40,5.29,Pre,117,No Relapse,ER+/HER2-,True,Yes,Yes,Breast Conserving
+P0056,87,66,2,145,Alive,Breast Invasive Carcinoma,Low,Basal,Positive,Positive,Negative,Medullary,30,3.16,Pre,115,No Relapse,ER+/HER2+,False,Yes,Unknown,Breast Conserving
+P0057,42,92,1,42,Alive,Breast Ductal Carcinoma,High,Luminal A,Positive,Positive,Negative,No special type,26,2.76,Pre,116,Relapse,ER-/HER2+,True,No,Yes,Breast Conserving
+P0058,68,41,1,165,Alive,Breast Ductal Carcinoma,Moderate,Basal,Positive,Positive,Negative,No special type,49,4.08,Pre,65,No Relapse,ER-/HER2+,False,Yes,No,Mastectomy
+P0059,58,103,1,14,Alive,Breast Lobular Carcinoma,Moderate,HER2-enriched,Positive,Positive,Negative,Tubular,51,6.1,Post,134,No Relapse,ER-/HER2+,False,Yes,Unknown,Mastectomy
+P0060,86,48,2,104,Alive,Breast Ductal Carcinoma,Moderate,Luminal B,Positive,Positive,Positive,Mucinous,44,6.31,Pre,131,No Relapse,ER+/HER2+,False,Yes,Yes,Mastectomy
