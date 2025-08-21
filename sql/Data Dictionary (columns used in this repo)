@@ -1,0 +1,35 @@
+**Core identifiers & outcomes**
+- `patient_id` — Unique patient/sample identifier.
+- `age_at_diagnosis` (years) — Age at initial diagnosis.
+- `tumor_size_mm` (mm) — Primary tumor size in millimeters.
+- `tumor_stage` (1–4) — Clinical stage encoded as ordinal 1–4.
+- `overall_survival_months` (months) — Time from diagnosis to death or last contact.
+- `vital_status` — Survival status at last follow-up (e.g., Alive/Dead).
+
+**Clinical & molecular features**
+- `cancer_type_detailed` — Histologic diagnosis.
+- `cellularity` — Tumor cellularity (e.g., Low/Moderate/High).
+- `pam50_subtype` — PAM50 molecular subtype (Luminal A/B, Basal, HER2-enriched, Normal-like).
+- `er_status` — Estrogen receptor status (assay-reported).
+- `er_status_ihc` — Estrogen receptor status by IHC.
+- `her2_status` — HER2 status (Positive/Negative).
+- `tumor_other_histologic_subtype` — Additional histologic annotation.
+- `mutation_count` — Total somatic mutation count per sample.
+- `nottingham_index` — Nottingham Prognostic Index.
+- `inferred_menopausal_state` — Menopausal state (Pre/Post).
+- `relapse_free_months` (months) — Time to relapse or last relapse-free contact.
+- `relapse_free_status` — Relapse event indicator.
+- `three_gene_subtype` — 3-gene subtype (e.g., ER+/HER2−, ER−/HER2+, Triple Negative, etc.).
+
+**Therapies & procedures**
+- `chemotherapy` (boolean) — Chemotherapy administered.
+- `hormone_therapy` — Yes/No/Unknown.
+- `radio_therapy` — Yes/No/Unknown.
+- `type_breast_surgery` — Breast Conserving or Mastectomy.
+
+**Derived in this repo (created by SQL pipeline)**
+- `size_group` — Tumor stage grouping used for stratified analysis (1 = early (≤1), 2 = advanced (2–4)).
+- `actual_survival` — Alias of `overall_survival_months` in the patient-level summary.
+- `group_avg_survival` — Average survival for the same (`size_group` × `type_breast_surgery`) cohort.
+- `low_perf` — TRUE if `actual_survival` < `group_avg_survival`.
+- `planned_surgery_type` — Surgery type alias in views.
